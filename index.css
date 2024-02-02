@@ -221,7 +221,7 @@ section.especialidades .flex {
 
 .especialidades .especialidades-box:hover {
     transform: scale(1.05);
-    box-shadow: 0 0 20px rgba(255, 255, 255, 0.253);
+    box-shadow: 0 0 20px rgba(211, 3, 230, 0.534);
 }
 
 .especialidades .especialidades-box span {
@@ -368,6 +368,12 @@ footer .line-footer p a {
 }
 
 @media screen and (max-width: 1020px) {
+    body {
+        background-size: auto;
+        background-position: center;
+        background-color: rgba(200, 176, 223, 0.384);
+    }
+
     .flex {
         flex-direction: column-reverse;
     }
@@ -419,6 +425,12 @@ footer .line-footer p a {
         line-height: 35px;
         text-align: center;
     }
+    .sobre .txt-sobre p {
+        font-size: 20px;
+    }
+    .sobre .img-sobre img{
+        width: 350px;
+    }
     .btn-social{
         text-align: center;
     }
@@ -451,8 +463,14 @@ footer .line-footer p a {
     }
 
     .interface .logo img{
-        height: 85px;
+        height: 285px;
+        width: 285px;
         margin: 0px 50px;
+    }
+
+    .logo-footer img {
+        width: 250px;
+        height: 250px;
     }
 
 }
